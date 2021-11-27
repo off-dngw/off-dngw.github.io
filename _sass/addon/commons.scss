@@ -125,7 +125,7 @@ footer {
   padding: 0 1rem;
   height: $footer-height;
   font-size: 0.8rem;
-  color: #7a7b7d;
+  color: #0956a3cf;
   background-color: var(--footer-bg-color);
 
   > div.d-flex {
@@ -204,7 +204,7 @@ footer {
     &:hover {
       background-color: #2a408e;
       border-color: #2a408e;
-      color: #fff;
+      // color: #fff;
       transition: none;
     }
   }
@@ -620,7 +620,7 @@ $sidebar-display: "sidebar-display";
     &:hover {
       @include no-text-decoration;
 
-      color: #fff;
+      color: #0956a3cf;
     }
   }
 
@@ -634,7 +634,7 @@ $sidebar-display: "sidebar-display";
       width: 6rem;
       height: 6rem;
       border-radius: 50%;
-      border: 2px solid #b6b6b6;
+      border: 2px solid #fff;
       overflow: hidden;
       transform: translateZ(0); // fixed the zoom in Safari
       -webkit-transition: border-color 0.35s ease-in-out;
@@ -668,7 +668,7 @@ $sidebar-display: "sidebar-display";
 
   .site-subtitle {
     font-size: 95%;
-    color: #828282;
+    color: #000000;
     line-height: 1.2rem;
     word-spacing: 1px;
     margin: 0.5rem 1.5rem 0.5rem 1.5rem;
@@ -691,12 +691,12 @@ $sidebar-display: "sidebar-display";
     height: $tab-height;
     &:hover {
       .nav-link {
-        color: #f8f9facf;
+        color: #0956a3cf;
       }
     }
     &.active {
       .nav-link {
-        color: #fcfcfc;
+        color: #0956a3cf;
       }
     }
   }
@@ -792,7 +792,7 @@ $sidebar-display: "sidebar-display";
     }
 
     .icon-border {
-      background-color: #525354;
+      background-color:#0956a3cf;
       content: "";
       width: 3px;
       height: 3px;
@@ -803,7 +803,7 @@ $sidebar-display: "sidebar-display";
 
     a:hover,
     #mode-toggle-wrapper i:hover {
-      color: #fff;
+      color: #0956a3cf;
     }
 
   } // .sidebar-bottom
@@ -850,7 +850,7 @@ $sidebar-display: "sidebar-display";
 
 #topbar {
   i { // icons
-    color: #999;
+    color: rgba(153, 153, 153, 0.534);
   }
 
   #breadcrumb {
