@@ -134,6 +134,7 @@ defaults:
       path: ''
       type: tabs             # see `site.collections`
     values:
+      show_date : false
       layout: page
       permalink: /:title/
       dynamic_title: true    # Hide title in mobile screens.
