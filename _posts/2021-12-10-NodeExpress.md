@@ -11,7 +11,11 @@ tags: [Node, Express]
 {:.no_toc}
 
 * Will be replaced with the ToC, excluding the "Contents" header
+<<<<<<< HEAD
 {:toc}
+=======
+  {:toc}
+>>>>>>> bd3d658df2b0d0e807c5466a5c4fe7bda57be7fa
 
 ---
 
