@@ -11,11 +11,7 @@ tags: [Node, Express]
 {:.no_toc}
 
 * Will be replaced with the ToC, excluding the "Contents" header
-<<<<<<< HEAD
 {:toc}
-=======
-  {:toc}
->>>>>>> bd3d658df2b0d0e807c5466a5c4fe7bda57be7fa
 
 ---
 
@@ -356,7 +352,7 @@ app.use(session({
 }))
 
 app.use(8080, (req, res) => {
-     console.log("Server Running at http://127.0.0.1:8080");
+    //  console.log("Server Running at http://127.0.0.1:8080");
 })
 
 ```
