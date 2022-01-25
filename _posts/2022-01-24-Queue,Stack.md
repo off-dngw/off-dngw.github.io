@@ -2,8 +2,8 @@
 title: "자료구조 Queue, Stack"
 author: DongWoo Kim
 date: 2021-01-24
-categories: [SQL]
-tags: [SQL, 자료구조, 큐, 스택]
+categories: [자료구조]
+tags: [자료구조, 큐, 스택]
 ---
 
 ---
